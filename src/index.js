@@ -1,6 +1,8 @@
 // import './jsx/create-react-element'
 // import './jsx/jsx-basic-1'
 // import './component-basic/props-basic-1'
+// import './component-basic/props-basic-default-props.js'
+import './component-basic/props-basic-prop-types.js'
 // import './component-basic/props-children'
 // import './component-basic/function-component'
 //  import './component-intermediate/state-study'
@@ -17,6 +19,10 @@
 // import './component-advanced/ref-demo'
 // import './component-advanced/controlled-component'
 // import './component-advanced/reservation-form'
-import './component-intermediate/lifecycle-method-component-did-update'
+// import './component-intermediate/lifecycle-method-component-did-update'
+
+// import './component-advanced/hoc-1'
+// import './component-advanced/hoc-2'
+// import './component-advanced/hoc-3'
 
 
