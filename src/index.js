@@ -10,7 +10,7 @@
 // import './component-intermediate/counter-demo'
 // import './component-intermediate/shallow-merge-caveat'
 // import './component-intermediate/manipulate-list'
-import './component-intermediate/todo-app-demo'
+// import './component-intermediate/todo-app-demo'
 // import './component-intermediate/lifecycle-methods'
 // import './component-intermediate/timer-demo'
 //  import './component-intermediate/lifecycle-method-should-component-update'
@@ -25,5 +25,7 @@ import './component-intermediate/todo-app-demo'
 // import './component-advanced/hoc-1'
 // import './component-advanced/hoc-2'
 // import './component-advanced/hoc-3'
+
+import './make-image-slider-3106-kimsuhyun'
 
 
