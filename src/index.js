@@ -26,6 +26,12 @@
 // import './component-advanced/hoc-2'
 // import './component-advanced/hoc-3'
 
-import './make-image-slider-3106-kimsuhyun'
 
+// import './make-image-slider-3106-kimsuhyun'
+// import './component-advanced/context-api'
+// import  './component-advanced/context-api-theme-context'
+// import './component-styling/using-css'
+// import './component-styling/using-css-model'
+// import './component-styling/using-styled-components.js'
+import './test/make-accordion-3106-kimsuhyun'
 
