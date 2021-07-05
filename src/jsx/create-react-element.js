@@ -52,6 +52,5 @@ console.log(rootDiv)
 //     {favorites}
 // </div>  // 바꾼게 jsx
 
-const rootElement = document.getElementById("root") // public.index.html에 있는 div id ="root"를 가져옴
+const rootElement = document.getElementById("root") // public/index.html에 있는 div id ="root"를 가져옴
 ReactDOM.render(rootDiv, rootElement)
-// img태그를 rootElement에 붙이라

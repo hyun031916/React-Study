@@ -1,5 +1,5 @@
-import './jsx/create-react-element'
-// import './jsx/jsx-basic-1'
+// import './jsx/create-react-element'
+import './jsx/jsx-basic-1'
 // import './component-basic/props-basic-1'
 // import './component-basic/props-basic-default-props.js'
 // import './component-basic/props-basic-prop-types.js'

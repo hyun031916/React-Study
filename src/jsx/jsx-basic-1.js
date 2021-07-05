@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 
 const name = 'Josh Perez'
 // 변수 내용 삽입 가능
-// const element = <h1>Hello, {name}</h1>  // jsx에서 표현식 지원
+const element1 = <h1>Hello, {name}</h1>  // jsx에서 표현식 지원
 
 const lst = [100, 200, 300]
 const person = {
@@ -24,7 +24,7 @@ const JSXwithExpressions = (
         &nbsp;{person.name.length}
         &nbsp;{double(person.age)} {/* jsx에서도 js 메서드 사용가능 */}
     </h1>)
-const element = <div tabIndex="0"></div>
+const element = <div tabIndex="0">{JSXwithExpressions}</div>
 
 const ele=(<div>
     {true}
@@ -39,7 +39,7 @@ const div2=(// 조건부 렌더링
         <h1>Hello!</h1>
         {/* 만약 읽지 않은 메시지가 있다면 경고문 출력 */}
         {unreadMessages.length > 0 &&
-        <h2>You have {unreadMessages.length} unread messages.</h2> //리엑트 요서 반환
+        <h2>You have {unreadMessages.length} unread messages.</h2> //리엑트 요소 반환
         }
     </div>
 )
@@ -52,4 +52,28 @@ const conditionalElement = (
 )
 
 const h1=<h1 style={{color: "red",backgroundColor: "lightblue"}}>Hello Style!</h1>
-ReactDOM.render(h1, document.getElementById("root"))
+
+class MyHeader extends React.Component {
+    render() {
+        const mystyle = {
+            color: "white",
+            backgroundColor: "DodgerBlue",
+            padding: "10px",
+            fontFamily: "Arial"
+        };
+        return (
+            <div>
+                {/* mystyle 객체를 바로 전달 */}
+                <h1 style={mystyle}>Hello Style!</h1>
+                <p>Add a little style!</p>
+            </div>
+        );
+    }
+}
+// ReactDOM.render(element1, document.getElementById("root"))
+// ReactDOM.render(element, document.getElementById("root"))
+// ReactDOM.render(conditionalElement, document.getElementById("root"))
+// ReactDOM.render(div2, document.getElementById("root"))
+// ReactDOM.render(ele, document.getElementById("root"))
+// ReactDOM.render(h1, document.getElementById("root"))
+ReactDOM.render(<MyHeader />, document.getElementById("root"))
