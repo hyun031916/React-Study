@@ -1,4 +1,4 @@
-// import './jsx/create-react-element'
+import './jsx/create-react-element'
 // import './jsx/jsx-basic-1'
 // import './component-basic/props-basic-1'
 // import './component-basic/props-basic-default-props.js'
@@ -33,5 +33,5 @@
 // import './component-styling/using-css'
 // import './component-styling/using-css-model'
 // import './component-styling/using-styled-components.js'
-import './test/make-accordion-3106-kimsuhyun'
+// import './test/make-accordion-3106-kimsuhyun'
 
